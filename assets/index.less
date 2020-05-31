@@ -1,0 +1,80 @@
+@checkboxWarpPrefixCls: rmc-dialog;
+
+/* Default state */
+.@{checkboxWarpPrefixCls} {
+  &-mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  &-wrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateZ(0px);
+  }
+
+  // prettier-ignore
+  width: 270PX;
+  position: relative;
+
+  &-content {
+    position: relative;
+    background-color: #fff;
+    border: 0;
+    background-clip: padding-box;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+
+    // prettier-ignore
+    border-radius: 7PX;
+  }
+
+  &-header {
+    // prettier-ignore
+    padding: 6PX 15PX 15PX;
+  }
+  &-title {
+    margin: 0;
+
+    // prettier-ignore
+    font-size: 18PX;
+    line-height: 1;
+    color: #000;
+    text-align: center;
+  }
+
+  &-footer {
+    //
+  }
+}
+
+.fade-enter,
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-appear-active {
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.fade-exit-active {
+  transition: opacity 0.2s;
+  opacity: 0;
+}

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog can render 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "id": 1,
+          "props": Object {
+            "class": "rmc-dialog-mask",
+            "style": "",
+          },
+          "text": undefined,
+          "type": "view",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "text": "233",
+                              "type": "plain-text",
+                            },
+                          ],
+                          "id": 3,
+                          "props": Object {
+                            "class": "rmc-dialog-title",
+                          },
+                          "text": undefined,
+                          "type": "view",
+                        },
+                      ],
+                      "id": 4,
+                      "props": Object {
+                        "class": "rmc-dialog-header",
+                      },
+                      "text": undefined,
+                      "type": "view",
+                    },
+                    Object {
+                      "children": Array [],
+                      "id": 5,
+                      "props": Object {
+                        "class": "rmc-dialog-body",
+                        "style": "",
+                      },
+                      "text": undefined,
+                      "type": "view",
+                    },
+                  ],
+                  "id": 6,
+                  "props": Object {
+                    "class": "rmc-dialog-content",
+                  },
+                  "text": undefined,
+                  "type": "view",
+                },
+              ],
+              "id": 7,
+              "props": Object {
+                "class": "rmc-dialog",
+                "role": "document",
+              },
+              "text": undefined,
+              "type": "view",
+            },
+          ],
+          "id": 8,
+          "props": Object {
+            "class": "rmc-dialog-wrap",
+            "data-wrapper": true,
+            "onTap": "$$REMAX_METHOD_8_onTap",
+            "role": "dialog",
+            "style": "",
+          },
+          "text": undefined,
+          "type": "view",
+        },
+      ],
+      "id": 9,
+      "props": Object {},
+      "text": undefined,
+      "type": "view",
+    },
+  ],
+  "id": 0,
+  "props": undefined,
+  "text": undefined,
+  "type": "root",
+}
+`;
